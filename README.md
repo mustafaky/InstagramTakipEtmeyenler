@@ -2,53 +2,52 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023)](https://github.com/davidarroyo1234/InstagramUnfollowers)
 
-A nifty tool that lets you see who doesn't follow you back on Instagram.  
-<u>Browser-based and requires no downloads or installations!</u>
+Sizi Instagram'da takip etmeyenleri görmek için kullanışlı bir araç.
+<u>Tarayıcı tabanlıdır ve indirme veya kurulum gerektirmez!</u>
 
 ## **WARNING**
 
-This version utilizes the Instagram API for better performance.  
-If you prefer to use the older version please use this [commit](https://github.com/davidarroyo1234/InstagramUnfollowers/tree/50a0bcbc9fe349b8664a74c0e4477bc974d0352b).
+Bu sürüm, daha iyi performans için Instagram API'sini kullanır. 
+Eğer eski sürümü kullanmayı tercih ederseniz, lütfen şu bağlantıyı kullanın: [bağlantıyı](https://github.com/davidarroyo1234/InstagramUnfollowers/tree/50a0bcbc9fe349b8664a74c0e4477bc974d0352b).
 
-## Usage
+## Kullanım
 
-### Steps:
+### Adımlar:
 
-1.  Copy the following code from this url. (This has been moved to this site, because the repository was taking too long to load with so many characters.The web site only shows the compiled and minified code. )
+1.  Bu bağlantıdaki kodu kopyalayın. (Bu, depo çok fazla karakterle yüklenince bu siteye taşındı. Web sitesi derlenmiş ve sıkıştırılmış kodu gösterir sadece.)
 
 ### https://davidarroyo1234.github.io/InstagramUnfollowers/
 
-2. Press the COPY button to copy the code.
+2. Kodu kopyalamak için COPY düğmesine basın.
 
     <img src="./assets/copy_code.png" alt="Initial screen" />
 
-3. Once you have copied the code, you can close this page and go to the instagram website
-4. Log in into your account and open the developer console or (Ctrl+Shift+J(Windows) || ⌘+⌥+I (Mac os)) and paste the code.
-
-5. You will be met with the following interface:
+3. Kodu kopyaladıktan sonra bu sayfayı kapatabilir ve Instagram web sitesine gidebilirsiniz.
+4. Hesabınıza giriş yapın ve geliştirici konsolunu açın veya (Ctrl+Shift+J (Windows) || ⌘+⌥+I (Mac os)) ve kodu yapıştırın.
+5. Aşağıdaki arayüzle karşılaşacaksınız:
 
  <img src="./assets/initial.png" alt="Initial screen" />
 
-6. Click "RUN" to start scanning for users who do not follow you back.
-7. Once it finishes printing the users, you will be met with the following screen which will show you the results:
+6. Takip etmeyen kullanıcıları tarayabilmek için "RUN"a tıklayın.
+7. Kullanıcıları listeledikten sonra aşağıdaki sonuçları gösterecek ekrana yönlendirileceksiniz:
 
  <img src="./assets/results.png" alt="Results screen" />
 
-8. If you wish to un-follow any of these users, you can select 1 or more of them via the checkbox next to each user.
+8. Bu kullanıcılardan herhangi birini takibi bırakmak isterseniz, her kullanıcının yanındaki onay kutusu aracılığıyla 1 veya daha fazlasını seçebilirsiniz.
 
-## Notes
+## Notlar
 
-**_The more users you have to check, more time it will take_**
+**_Kontrol etmeniz gereken kullanıcı sayısı arttıkça daha fazla zaman alacaktır_**
 
-**_This script has been tested only on Chromium-based browsers_**
+**_Bu komut dosyası yalnızca Chromium tabanlı tarayıcılarda test edilmiştir_**
 
-## DEV
+## GELİŞTİRİCİ
 
-Node version: 16.14.0 (If using nvm use the comand "nvm use")
-When introducing new changes to `main.tsx`, make sure to run the "build" command in-order to automatically format, compress, and convert your code. (In the future will be automatic).
+Node sürümü: 16.14.0 (nvm kullanıyorsanız "nvm use" komutunu kullanın)
+main.tsx dosyasına yeni değişiklikler eklerken kodunuzu otomatik olarak biçimlendirmek, sıkıştırmak ve dönüştürmek için "build" komutunu çalıştırmayı unutmayın. (Gelecekte otomatik olacak).
 
-## Legal
+## Hukuki
 
-**Disclaimer:** This is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Instagram.
+**Açıklama:** Bu, resmi olarak Instagram ile ilişkilendirilmemiş, bağlantılı olmayan, yetkilendirilmemiş veya onaylanmamıştır.
 
-Use it at your own risk!.
+Kullanımı kendi sorumluluğunuzdadır!.
