@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>InstagramUnfollowers</title>
+    <title>InstagramTakipEtmyeyenler</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js" integrity="sha512-UOoJElONeUNzQbbKQbjldDf9MwOHqxNz49NNJJ1d90yp+X9edsHyJoAs6O4K19CZGaIdjI5ohK+O2y5lBTW6uQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-coy.min.css" integrity="sha512-XcB0I04SuOVkb6ewfVz0qMhU5QADIiFBFxPRRNWZUANF1W5onx8GlbHYYIivw3gXrTuZfu+1gAG8HvvKQG3oGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
     html {
-        background-color: #111 !important;
+        background-color: #000000 !important;
     }
     code {
         user-select: none;
@@ -16,7 +16,7 @@
     }
 
     .codeBox {
-        max-width: 50%;
+        max-width: 70%;
         font-size: 10px;
         user-select: none;
         margin: 0 auto;
@@ -27,8 +27,8 @@
         font-size: 1.3em;
         color: black;
         border: 1px solid white;
-        height: 80px;
-        width: 80px;
+        height: 125px;
+        width: 125px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -44,10 +44,10 @@
 
 <body>
 <div style="text-align: center;">
-    <h4 class="white">INSTAGRAM UNFOLLOWERS</h4>
+    <h3 class="white">INSTAGRAM TAKİP ETMEYENLER</h3>
 </div>
 <div>
-    <button class='copy-button' onclick="copyToClipboard()">COPY</button>
+    <button class='copy-button' onclick="copyToClipboard()">Kopyala</button>
 </div>
 <div class="codeBox">
     <pre><code class="language-javascript" id="code"></code></pre>
@@ -61,7 +61,7 @@
 
     async function copyToClipboard() {
         await navigator.clipboard.writeText(instagramScript);
-        alert("Code copied")
+        alert("Kod kopyalandı")
     }
 
 </script>
